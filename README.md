@@ -42,3 +42,13 @@ GET `/events?account={accountId}`
 
 ### Get Account Balance
 GET `/accounts/{accountId}/balance`
+
+## Features
+
+- Idempotent event ingestion
+- Out-of-order event handling
+- Chronological event retrieval
+- Real-time balance computation
+- Input validation
+- Automated test coverage
+- H2 in-memory database
